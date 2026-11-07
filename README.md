@@ -1,18 +1,19 @@
-<p align="center">
-  <img src="assets/logo.svg" alt="The Nova Book Logo" width="160" />
-</p>
+<div align="center">
 
-<h1 align="center">The Nova Programming Language Book</h1>
+# 📖 The Nova Systems Language Book
 
-<p align="center">
-  <b>The Comprehensive mdBook Guide to Provable Systems Programming in Nova</b>
-</p>
+**The Comprehensive Official Guide to Provable Systems Programming in Nova**
 
-<p align="center">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-PolyForm%20Noncommercial-blueviolet?style=for-the-badge" alt="License" /></a>
-  <a href="https://github.com/novasystems-dev/nova"><img src="https://img.shields.io/badge/Nova-Systems%20Lang-00F0FF?style=for-the-badge" alt="Nova" /></a>
-  <img src="https://img.shields.io/badge/mdBook-v0.4.36-FF548F?style=for-the-badge" alt="mdBook" />
-</p>
+<br />
+
+[![License](https://img.shields.io/badge/license-PolyForm-a855f7?style=flat&labelColor=0f172a&logo=open-source-initiative&logoColor=white)](LICENSE)
+[![Nova](https://img.shields.io/badge/language-Nova_0.3.0-38bdf8?style=flat&labelColor=0f172a&logo=rust&logoColor=white)](https://github.com/novasystems-dev/nova)
+[![Format](https://img.shields.io/badge/format-mdBook-10b981?style=flat&labelColor=0f172a&logo=gitbook&logoColor=white)](src/)
+[![Ecosystem](https://img.shields.io/badge/ecosystem-10%20repos-f59e0b?style=flat&labelColor=0f172a&logo=github&logoColor=white)](https://github.com/novasystems-dev)
+
+<br />
+
+</div>
 
 ---
 
@@ -24,6 +25,16 @@
 - **Chapter 4: SMT Refinement Types**: Formal verification of bounds and non-zero division using Microsoft Z3.
 - **Chapter 5: Concurrency Primitives**: Isolated memory (`iso`), immutable sharing (`val`), and fiber channels.
 - **Chapter 6: Bare-Metal Systems Control**: Raw pointers (`*mut T`), inline assembly, and direct hardware interfacing.
+
+---
+
+## 🚀 Building the Book Locally
+
+Install `mdbook` and run:
+
+```bash
+mdbook serve --open
+```
 
 ---
 
