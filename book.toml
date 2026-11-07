@@ -1,0 +1,9 @@
+[book]
+title = "The Nova Programming Language"
+authors = ["Fyew999", "Nova Systems Team"]
+language = "en"
+multilingual = false
+src = "src"
+
+[output.html]
+git-repository-url = "https://github.com/novasystems-dev/book"
